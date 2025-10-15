@@ -98,3 +98,18 @@ $RECYCLE.BIN/
 *.orig
 *.save
 *.sublime-workspace
+
+# App settings (enthält oft API-Keys oder URLs)
+appsettings.*.json
+!appsettings.json  # optional, falls du nur die Basisdatei behalten willst
+launchSettings.json
+secrets.json
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Local configuration files (contain secrets)
+appsettings.Development.json
+appsettings.*.local.json
+launchSettings.json
