@@ -7,9 +7,10 @@ obj/
 .vscode/
 .idea/
 
-# Secrets
+# Secrets / local configuration
 .env
 appsettings.*.local.json
+appsettings.Development.json
 launchSettings.json
 
 # OS / temp files
