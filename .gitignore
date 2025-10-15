@@ -1,0 +1,42 @@
+# =====================
+# Build-Ordner
+# =====================
+bin/
+obj/
+
+# =====================
+# Visual Studio / IDE
+# =====================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.idea/
+
+# =====================
+# .NET / NuGet
+# =====================
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+project.assets.json
+*.nuget.g.props
+*.nuget.g.targets
+*.nuget.cache
+
+# =====================
+# Docker / Logs / temporär
+# =====================
+*.log
+Dockerfile*.* # Optional, wenn du Dockerfile behalten willst, kannst du weglassen
+
+# =====================
+# Sonstiges
+# =====================
+*.DS_Store
+*.pdb
+*.exe
+*.dll
+*.runtimeconfig.json
+*.deps.json

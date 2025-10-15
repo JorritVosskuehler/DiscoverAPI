@@ -1,0 +1,6 @@
+@DiscoverAPI_HostAddress = http://localhost:5100
+
+GET {{DiscoverAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
